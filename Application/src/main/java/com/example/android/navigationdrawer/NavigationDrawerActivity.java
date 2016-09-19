@@ -70,7 +70,7 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
     private RecyclerView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
 
-    static ImageView iv;
+//    static ImageView iv;
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     private String[] mPlanetTitles;
@@ -240,17 +240,24 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
                                  Bundle savedInstanceState) {
             View rootView = null;
             int i = getArguments().getInt(ARG_PLANET_NUMBER);
-            if (i == 0)
+            ImageView iv=null;
+            if (i == 0) {
                 rootView = inflater.inflate(R.layout.fragment_family, container, false);
-            else if (i == 1)
+                iv=(ImageView) rootView.findViewById(R.id.image_family);
+                iv.setImageResource(R.drawable.family);
+            }else if (i == 1) {
                 rootView = inflater.inflate(R.layout.fragment_friends, container, false);
-
-            else if (i == 2)
+                iv=(ImageView) rootView.findViewById(R.id.image_friends);
+                iv.setImageResource(R.drawable.friends);
+            }else if (i == 2) {
                 rootView = inflater.inflate(R.layout.fragment_teacher, container, false);
-                return rootView;
-            iv=((ImageView) rootView.findViewById(R.id.image_teacher));
+                iv=(ImageView) rootView.findViewById(R.id.image_teacher);
+                iv.setImageResource(R.drawable.teacher);
+            }
+
             iv.setOnClickListener(m_nda);
-            iv.setImageResource(imageId);
+            iv.setImageResource(R.drawable.family);
+            return rootView;
         }
 
     }

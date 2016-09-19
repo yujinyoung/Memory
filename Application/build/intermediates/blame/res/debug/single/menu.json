@@ -2,5 +2,9 @@
     {
         "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/menu/navigation_drawer.xml",
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/menu/navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/menu/main_menu.xml"
     }
 ]

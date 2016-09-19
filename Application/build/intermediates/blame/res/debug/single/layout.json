@@ -8,6 +8,10 @@
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/layout/fragment_teacher.xml"
     },
     {
+        "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/item_image.xml",
+        "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/layout/item_image.xml"
+    },
+    {
         "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_big_media.xml"
     },
@@ -120,6 +124,10 @@
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_media_action.xml"
     },
     {
+        "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/item_text.xml",
+        "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/layout/item_text.xml"
+    },
+    {
         "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_list_menu_item_radio.xml"
     },
@@ -162,6 +170,10 @@
     {
         "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/sample_main.xml",
+        "source": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/src/main/res/layout/sample_main.xml"
     },
     {
         "merged": "/Users/appcreator08/AndroidStudioProjects/Memory_finish/Application/build/intermediates/res/merged/debug/layout/fragment_family.xml",
